@@ -142,4 +142,7 @@ h1 {
   display: block;
 }
 
+#container { overflow: auto; -webkit-overflow-scrolling: touch; height: 500px; }
+      object { width: 500px; height: 10000px }
+
 
