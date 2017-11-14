@@ -59,8 +59,28 @@ ul li a{
     box-sizing: border-box;
 }
 
+
+ ul{
+	margin: 0;
+
+
+}
+
+ul li{
+	background: black;
+	color: white;
+	display: inline-block;
+	list-style-type: none;
+	padding: 5px 15px;
+}
+
+ul li a{
+	color: white;
+}
+
+
 body {
-    background-color: #f1f1f1;
+    background-color: lightblue;
     padding: 20px;
     font-family: Arial;
 }
