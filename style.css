@@ -12,10 +12,18 @@ h1 {
 }
 
 p {
+
+	width: 50%;
+	float: left;    
+	padding: 25px;
+	margin: 10px;
+	border: 2px solid black;
+	border:;
+
 	color: grey;
-	background: #999;
     font-family: verdana;
     font-size: 20px;
-    padding: 25px;
+
+
 }
 
