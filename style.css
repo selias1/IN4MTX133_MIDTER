@@ -38,6 +38,7 @@ ul li{
 	color: white;
 	display: inline-block;
 	list-style-type: none;
+	padding: 5px 15px;
 }
 
 ul li a{
