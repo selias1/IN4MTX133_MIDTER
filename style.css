@@ -14,12 +14,10 @@ h1 {
 p {
 
 	width: 50%;
-	float: left;    
+	float: center;    
 	padding: 25px;
 	margin: 10px;
 	border: 2px solid black;
-	border:;
-
 	color: grey;
     font-family: verdana;
     font-size: 20px;
