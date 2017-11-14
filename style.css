@@ -54,7 +54,18 @@ ul li a{
 */
 
 
+p {
 
+	width: 75%;
+	float: center;
+	text-align: center;    
+	padding: 25px;
+	margin: 10px;
+	border: 2px solid black;
+	color: grey;
+    font-family: verdana;
+    font-size: 20px;
+}
 * {
     box-sizing: border-box;
 }
