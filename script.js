@@ -1,4 +1,4 @@
-<!--
+/*<!--
 <script href = "script.js" type="text/javascript"></script>
 
 
@@ -18,3 +18,4 @@ Click me to display Date and Time.</button>
 </html> 
 
 -->
+*/
