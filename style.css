@@ -12,12 +12,12 @@
     padding: 15px;
     border: 1px solid blue;
 }
-/*.main {
+.main {
     width: 75%;
     float: left;
     padding: 15px;
     border: 1px solid blue;
-}*/
+}
 
 
 
@@ -138,11 +138,11 @@ body {
 }
 
 /* Center website */
-.main {
+/*.main {
     max-width: 1000px;
     margin: auto;
 }
-
+*/
 h1 {
     font-size: 25px;
     word-break: break-all;
