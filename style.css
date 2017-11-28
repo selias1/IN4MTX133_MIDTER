@@ -85,7 +85,12 @@ ul li a{
 .col-1 {width: 25%;}
 */
 
-
+@media screen and (max-device-width: 480px){
+    img{
+        max-width:100%;
+        height:auto;
+    }
+}
 
 
 
@@ -100,9 +105,6 @@ ul li a{
     .col-1 {width: 25%;}
 html {
     font-family: "Lucida Sans", sans-serif;
-
-
-
 }
 
 
