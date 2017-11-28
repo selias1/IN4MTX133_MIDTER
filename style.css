@@ -1,59 +1,3 @@
-/*
-body {
-
-	margin: 0;
-	padding: 0;
-    background-color: lightblue;
-}
-
-h1 {
-
-
-	margin: 0;
-    color: white;
-    text-align: center;
-}
-
-p {
-
-	width: 75%;
-	float: center;
-	text-align: center;    
-	padding: 25px;
-	margin: 10px;
-	border: 2px solid black;
-	color: grey;
-    font-family: verdana;
-    font-size: 20px;
-}
-
-
-
-h3{
-	display: inline;
-
-}
-
- ul{
-	margin: 0;
-
-
-}
-
-ul li{
-	background: black;
-	color: white;
-	display: inline-block;
-	list-style-type: none;
-	padding: 5px 15px;
-}
-
-ul li a{
-	color: white;
-}
-*/
-
-
 
 * {
     box-sizing: border-box;
@@ -92,7 +36,7 @@ ul li a{
     }
 }
 */
-@media screen and (min-width: 320px) and (max-width: 767px) and (orientation: landscape) {
+/*@media screen and (min-width: 320px) and (max-width: 767px) and (orientation: landscape) {
   html {
     transform: rotate(-90deg);
     transform-origin: left top;
@@ -103,7 +47,7 @@ ul li a{
     left: 0;
   }
 }
-
+*/
 /* For mobile phones: */
 [class*="col-"] {
     width: 100%;
