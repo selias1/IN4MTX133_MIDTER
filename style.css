@@ -53,6 +53,15 @@ ul li a{
 }
 */
 
+
+
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+
 * {
     box-sizing: border-box;
 }
@@ -75,15 +84,34 @@ ul li a{
 
 
 
-
+/*
 [class*="col-"] {
     float: left;
     padding: 15px;
 }
 .col-1 {width: 25%;}
+*/
 
+
+
+
+
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+    float: left;
+    padding: 15px;
+}
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 25%;}
 html {
     font-family: "Lucida Sans", sans-serif;
+
+
+
+}
+
 
 
 
