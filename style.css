@@ -54,13 +54,13 @@
     .col-1 {width: 25%;}
 html {
     font-family: "Lucida Sans", sans-serif;
-}
+/*}
 @media screen and (max-device-width: 480px){
     img{
         max-width:100%;
         height:auto;
     }
-}
+}*/
 
 
 img{
