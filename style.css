@@ -50,29 +50,84 @@
     left: 0;
   }
 }*/
+.ProfilePicture{
+	
+	position: relative;
+	display: block;
+	margin: 55px auto auto auto;
+	background-attachment: fixed;
+	
+}
+
+@media screen and (max-width: 500px){
+
+	img{
+		height: 250;
+		width: 250;
+	}
+	
+	.FabPic{
+		height: 450;
+		width: 300;
+	}
+	
+	.ProfilePicture{
+		height: 300;
+		width: 200;
+	}
+}
+@media screen and (min-width: 501px) and (max-width: 980px){
+
+	img{
+		height: 400;
+		width: 400;
+	}
+	.FabPic{
+		height: 450;
+		width: 300;
+	}
+	
+	.ProfilePicture{
+		height: 500;
+		width: 300;
+	}
+}
+
+@media screen and (min-width: 981px){
+
+	img{
+		height: 400;
+		width: 400;
+	}
+	.FabPic{
+		height: 450;
+		width: 300;
+	}
+	
+	.ProfilePicture{
+		height: 500;
+		width: 300;
+	}
+}
+
+
+
+
+
 
 /* For mobile phones: */
-[class*="col-"] {
+/*[class*="col-"] {
     width: 100%;
     float: left;
     padding: 15px;
 }
 @media only screen and (min-width: 768px) {
-    /* For desktop: */
     .col-1 {width: 25%;}
     img{
     	width: 100%;
     	height: auto;
     }
-    #profile-picture {
 
-
-
-	border-radius: 25em;
-	border: 3px , solid white;
-	width: 25em;
-	overflow: hidden;
-	}
 }
 
 html {
@@ -86,16 +141,7 @@ html {
         width:100%;
         height:auto;
     }
-    #profile-picture {
-
-
-
-	border-radius: 25em;
-	border: 3px , solid white;
-	width: 25em;
-	overflow: hidden;
-	}
-}
+}*/
 
 
 /*img{
