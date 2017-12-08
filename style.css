@@ -29,13 +29,13 @@
 
 
 
-/*
+
 [class*="col-"] {
     float: left;
     padding: 15px;
 }
 .col-1 {width: 25%;}
-*/
+
 
 
 
@@ -60,7 +60,7 @@
 @media only screen and (min-width: 768px) {
     /* For desktop: */
     .col-1 {width: 25%;}
-    #profile-picture{
+    img{
     	max-width: 100%;
     	height: auto;
     }
@@ -71,7 +71,8 @@ html {
 
 
 @media screen and (max-device-width: 480px){
-    #profile-picture{
+	.col-1{width: 25%}
+    img{
         max-width:100%;
         height:auto;
     }
@@ -86,16 +87,23 @@ html {
 	height: auto;
 }
 */
-/*#profile-picture {
-	width: 120px;
+#profile-picture {
+
+
+
+	border-radius: 25em;
+	border: 3px , solid white;
+	width: 25em;
+	overflow: hidden;
+/*	width: 120px;
 	min-height: 120px;
 	max-height: auto;
 	float: center;
 	margin: 3px;
-	padding: 3px;
+	padding: 3px;*/
 }
 
-*/
+
 
 
 
