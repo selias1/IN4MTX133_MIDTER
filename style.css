@@ -29,13 +29,13 @@
 
 
 
-
+/*
 [class*="col-"] {
     float: left;
     padding: 15px;
 }
 .col-1 {width: 25%;}
-
+*/
 
 
 
@@ -60,7 +60,7 @@
 @media only screen and (min-width: 768px) {
     /* For desktop: */
     .col-1 {width: 25%;}
-    img{
+    #profile-picture{
     	max-width: 100%;
     	height: auto;
     }
@@ -71,7 +71,7 @@ html {
 
 
 @media screen and (max-device-width: 480px){
-    img{
+    #profile-picture{
         max-width:100%;
         height:auto;
     }
