@@ -64,6 +64,15 @@
     	max-width: 100%;
     	height: auto;
     }
+    #profile-picture {
+
+
+
+	border-radius: 25em;
+	border: 3px , solid white;
+	width: 25em;
+	overflow: hidden;
+	}
 }
 
 html {
@@ -77,6 +86,15 @@ html {
         max-width:100%;
         height:auto;
     }
+    #profile-picture {
+
+
+
+	border-radius: 25em;
+	border: 3px , solid white;
+	width: 25em;
+	overflow: hidden;
+	}
 }
 
 
@@ -88,21 +106,14 @@ html {
 	height: auto;
 }
 */
-#profile-picture {
 
-
-
-	border-radius: 25em;
-	border: 3px , solid white;
-	width: 25em;
-	overflow: hidden;
 /*	width: 120px;
 	min-height: 120px;
 	max-height: auto;
 	float: center;
 	margin: 3px;
 	padding: 3px;*/
-}
+
 
 
 
