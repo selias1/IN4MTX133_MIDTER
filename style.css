@@ -73,12 +73,11 @@
 		border-radius: 5px;
 		border: 2px solid #ddd;
 		padding: 150px;
-		height: 300;
-		width: 200;
+		height: 200;
+		width: 100;
 		position: relative;
 		display: block;
 		margin: 55px auto auto auto;
-		background-attachment: fixed;	
 	}
 }
 @media screen and (min-width: 501px) and (max-width: 980px){
@@ -98,7 +97,6 @@
 		position: relative;
 		display: block;
 		margin: 55px auto auto auto;
-		background-attachment: fixed;
 	}
 }
 
@@ -118,7 +116,6 @@
 		position: relative;
 		display: block;
 		margin: 55px auto auto auto;
-		background-attachment: fixed;	
 	}
 }
 
