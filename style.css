@@ -71,6 +71,10 @@
 	.ProfilePicture{
 		height: 300;
 		width: 200;
+		position: relative;
+		display: block;
+		margin: 55px auto auto auto;
+		background-attachment: fixed;	
 	}
 }
 @media screen and (min-width: 501px) and (max-width: 980px){
@@ -84,6 +88,10 @@
 	.ProfilePicture{
 		height: 500;
 		width: 300;
+		position: relative;
+		display: block;
+		margin: 55px auto auto auto;
+		background-attachment: fixed;
 	}
 }
 
@@ -97,6 +105,10 @@
 	.ProfilePicture{
 		height: 500;
 		width: 300;
+		position: relative;
+		display: block;
+		margin: 55px auto auto auto;
+		background-attachment: fixed;	
 	}
 }
 
