@@ -66,9 +66,13 @@
     img{
         width:100%;
         height:auto;
+
     }
 	
 	.ProfilePicture{
+		border-radius: 5px;
+		border: 2px solid #ddd;
+		padding: 150px;
 		height: 300;
 		width: 200;
 		position: relative;
@@ -86,6 +90,9 @@
     }
 
 	.ProfilePicture{
+		border-radius: 5px;
+		border: 2px solid #ddd;
+		padding: 150px;
 		height: 500;
 		width: 300;
 		position: relative;
@@ -103,6 +110,9 @@
     }
 
 	.ProfilePicture{
+		border-radius: 5px;
+		border: 2px solid #ddd;
+		padding: 150px;
 		height: 500;
 		width: 300;
 		position: relative;
