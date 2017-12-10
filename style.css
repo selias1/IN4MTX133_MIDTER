@@ -45,7 +45,9 @@
     float: center;
     padding: 15px;
 }
-.col-1 {width: 50%;}
+.col_menu {
+	width: 50%;
+}
 
 
 [class*="col-"] {
