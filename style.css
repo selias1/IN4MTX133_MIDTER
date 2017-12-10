@@ -42,7 +42,7 @@
 
 
 [class*="col-"] {
-    float: left;
+    float: center;
     padding: 15px;
 }
 .col-1 {width: 50%;}
@@ -59,7 +59,7 @@
 	body {
         background-color: lightgreen;
         padding: 20px;
-    font-family: "verdana" , sans-serif;
+        font-family: "verdana" , sans-serif;
     }
 
 	
