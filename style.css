@@ -72,14 +72,14 @@
     }
 	
 	.ProfilePicture{
-		border-radius: 5px;
-		border: 2px solid #ddd;
+		border-radius: 10px;
+	/*	border: 2px solid #ddd;
 		padding: 150px;
-		height: 200;
-		width: 100;
-		position: relative;
+		height: 200;*/
+		width: auto;
+		/*position: relative;
 		display: block;
-		margin: 55px auto auto auto;
+		margin: 55px auto auto auto;*/
 	}
 }
 @media screen and (min-width: 501px) and (max-width: 980px){
@@ -91,14 +91,14 @@
     }
 
 	.ProfilePicture{
-		border-radius: 5px;
-		border: 2px solid #ddd;
+		border-radius: 10px;
+	/*	border: 2px solid #ddd;
 		padding: 150px;
-		height: 500;
-		width: 300;
-		position: relative;
+		height: 500;*/
+		width: auto;
+		/*position: relative;
 		display: block;
-		margin: 55px auto auto auto;
+		margin: 55px auto auto auto;*/
 	}
 }
 
@@ -110,14 +110,14 @@
     }
 
 	.ProfilePicture{
-		border-radius: 5px;
-		border: 2px solid #ddd;
+		border-radius: 10px;
+	/*	border: 2px solid #ddd;
 		padding: 150px;
-		height: 500;
-		width: 300;
-		position: relative;
+		height: 500;*/
+		width: auto;
+		/*position: relative;
 		display: block;
-		margin: 55px auto auto auto;
+		margin: 55px auto auto auto;*/
 	}
 }
 
