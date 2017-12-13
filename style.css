@@ -72,11 +72,11 @@
     }
 	
 	.ProfilePicture{
-		border-radius: 10px;
+		border-radius: 5px;
 	/*	border: 2px solid #ddd;
-		padding: 150px;
-		height: 200;*/
-		width: auto;
+		padding: 150px;*/
+		height: 200;
+		width: 100;
 		/*position: relative;
 		display: block;
 		margin: 55px auto auto auto;*/
@@ -91,11 +91,11 @@
     }
 
 	.ProfilePicture{
-		border-radius: 10px;
+		border-radius: 5px;
 	/*	border: 2px solid #ddd;
-		padding: 150px;
-		height: 500;*/
-		width: auto;
+		padding: 150px; */
+		height: 500;
+		width: 300;
 		/*position: relative;
 		display: block;
 		margin: 55px auto auto auto;*/
@@ -110,11 +110,11 @@
     }
 
 	.ProfilePicture{
-		border-radius: 10px;
+		border-radius: 5px;
 	/*	border: 2px solid #ddd;
-		padding: 150px;
-		height: 500;*/
-		width: auto;
+		padding: 150px; */
+		height: 500;
+		width: 300;
 		/*position: relative;
 		display: block;
 		margin: 55px auto auto auto;*/
