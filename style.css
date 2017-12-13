@@ -64,12 +64,7 @@
         font-family: "verdana" , sans-serif;
     }
 
-	
-    img{
-        width:100%;
-        height:auto;
 
-    }
 	
 	.ProfilePicture{
 		border-radius: 5px;
@@ -85,17 +80,14 @@
 @media screen and (min-width: 501px) and (max-width: 980px){
 
 	
-    img{
-        width:100%;
-        height:auto;
-    }
+
 
 	.ProfilePicture{
 		border-radius: 5px;
 	/*	border: 2px solid #ddd;
 		padding: 150px; */
-		height: 500;
-		width: 300;
+		height: 200;
+		width: 100;
 		/*position: relative;
 		display: block;
 		margin: 55px auto auto auto;*/
@@ -104,17 +96,14 @@
 
 @media screen and (min-width: 981px){
 	
-    img{
-        width:100%;
-        height:auto;
-    }
 
-	.ProfilePicture{
+
+	.ProfilePicture {
 		border-radius: 5px;
 	/*	border: 2px solid #ddd;
 		padding: 150px; */
-		height: 500;
-		width: 300;
+		height: 200;
+		width: 100;
 		/*position: relative;
 		display: block;
 		margin: 55px auto auto auto;*/
@@ -122,6 +111,10 @@
 }
 
 
+img{
+		width:100%;
+        height:auto;
+    }
 
 
 
