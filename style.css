@@ -72,7 +72,7 @@
 		display: block;
 		margin: auto;
 		border-radius: 50%;
-		float: right;
+		float: center;
 		/*	border: 2px solid #ddd;
 		padding: 150px;*/
 		/*height: 200;*/
@@ -91,7 +91,7 @@
 		display: block;
 		margin: auto;
 		border-radius: 50%;
-		float: right;
+		float: center;
 	/*	border: 2px solid #ddd;
 		padding: 150px; */
 		/*height: 200;*/
