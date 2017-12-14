@@ -307,7 +307,7 @@ h3{
 /* Content */
 .content {
     background-color: white;
-    padding: 10px;
+    padding: 5px;
 }
 
 /* The "show" class is added to the filtered elements */
@@ -315,7 +315,11 @@ h3{
   display: block;
 }
 
-#container { overflow: auto; -webkit-overflow-scrolling: touch; height: 500px; }
+#container { 
+	overflow: auto; 
+	-webkit-overflow-scrolling: touch; 
+	height: 500px; 
+}
       
 
 
