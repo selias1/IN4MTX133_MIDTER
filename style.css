@@ -293,7 +293,7 @@ h3{
 /* Create three equal columns that floats next to each other */
 .column {
     float: left;
-    width: 33.33%;
+    width: 30%;
     display: none; /* Hide all elements by default */
 }
 
@@ -307,7 +307,7 @@ h3{
 /* Content */
 .content {
     background-color: white;
-    padding: 5px;
+    padding: 10px;
 }
 
 /* The "show" class is added to the filtered elements */
