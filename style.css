@@ -21,23 +21,25 @@
 
 
 
-
-
-[class*="col-"] {
+/*[class*="col-"] {
     float: center;
     padding: 15px;
 }
 .col_menu {
 	width: 50%;
 }
-
+*/
 
 [class*="col-"] {
 	max-width: 1000px;
-	/*width: 100%;*/
     float: center;
     padding: 15px;
 }
+
+
+
+
+
 
 @media screen and (max-width: 400px){
 
