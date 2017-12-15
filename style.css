@@ -220,9 +220,6 @@ h1 {
   cursor: pointer;
 }
 
-.btn:hover, .active {
-  background-color: #ddd;
-}
 
 
 #container { 
