@@ -20,25 +20,7 @@
 }
 
 
-/*@media screen and (min-width: 320px) and (max-width: 767px) and (orientation: landscape) {
-  html {
-    transform: rotate(-90deg);
-    transform-origin: left top;
-    width: 100vh;
-    overflow-x: hidden;
-    position: absolute;
-    top: 100%;
-    left: 0;
-  }*/
-}
-/*.ProfilePicture{
-	
-	position: relative;
-	display: block;
-	margin: 55px auto auto auto;
-	background-attachment: fixed;
-	
-}*/
+
 
 
 [class*="col-"] {
@@ -79,8 +61,8 @@
 		float: center;
 		/*	border: 2px solid #ddd;
 		padding: 150px;*/
-		height: 150px;
-		width: 80px;
+		height: 200px;
+		width: 120px;
 		/*position: relative;
 		display: block;
 		margin: 55px auto auto auto;*/
