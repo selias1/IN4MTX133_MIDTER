@@ -7,42 +7,13 @@
     border-radius: 10px;
 }*/
 
-.bars li {
-	margin-bottom: 20px;
-	position: relative;
-}
-	
-.bars li:after {
-	background: #e1e1e1;
-	bottom: -4px;
-	content: ' ';
-	display: block;
-	height: 5px;
-	position: absolute;
-	width:100%;
-}
-	
-.bars li span {
-	background: #56c9c9;
-	bottom: -4px;
-	content: ' ';
-	display: block;
-	height: 5px;
-	left: 0;
-	position: absolute;
-	width: inherit;
-	z-index: 1;
-}
-
-
-
 
 .header {
     border: 1px solid blue;
     padding: 15px;
 }
 .menu {
-    width: 50%;
+    width: 25%;
     float: center;
     padding: 15px;
     border: 1px solid blue;
@@ -138,64 +109,6 @@
 }
 
 
-/*img{
-		width:100%;
-        height:auto;
-    }
-*/
-
-
-
-/* For mobile phones: */
-/*[class*="col-"] {
-    width: 100%;
-    float: left;
-    padding: 15px;
-}
-@media only screen and (min-width: 768px) {
-    .col-1 {width: 25%;}
-    img{
-    	width: 100%;
-    	height: auto;
-    }
-
-}
-
-html {
-    font-family: "verdana", sans-serif;
-}
-
-
-@media screen and (max-device-width: 480px){
-	.col-1{width: 25%}
-    img{
-        width:100%;
-        height:auto;
-    }
-}*/
-
-
-/*img{
-	border-radius: 75%;
-	transition: all 0.5s easy-in-out;
-	opacity: .5;
-	max-width: 50%;
-	height: auto;
-}
-*/
-
-/*	width: 120px;
-	min-height: 120px;
-	max-height: auto;
-	float: center;
-	margin: 3px;
-	padding: 3px;*/
-
-
-
-
-
-
 
 }
 .menu ul {
@@ -218,6 +131,36 @@ html {
 
 
 
+.bars li {
+	margin-bottom: 20px;
+	position: relative;
+}
+	
+.bars li:after {
+	background: #e1e1e1;
+	bottom: -4px;
+	content: ' ';
+	display: block;
+	height: 5px;
+	position: absolute;
+	width:100%;
+}
+	
+.bars li span {
+	background: #56c9c9;
+	bottom: -4px;
+	content: ' ';
+	display: block;
+	height: 5px;
+	left: 0;
+	position: absolute;
+	width: inherit;
+	z-index: 1;
+}
+
+
+
+
 
 
 
@@ -237,7 +180,7 @@ p {
 }
 
 
- ul{
+/* ul{
 	margin: 0;
 
 
@@ -262,7 +205,7 @@ ul li a{
 * {
     box-sizing: border-box;
 }
-
+*/
 
 body {
     background-color: lightblue;
