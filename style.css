@@ -4,6 +4,13 @@
     border: 1px solid blue;
     padding: 15px;
 }
+.menu {
+    width: 25%;
+    float: center;
+    padding: 15px;
+    border: 1px solid blue;
+}
+
 
 
 
@@ -93,21 +100,8 @@ h3{
 	}
 }
 
-.menu h3{
-	font-family: "verdana", sans-serif;	
-	text-align : left;
 
-}
-.menu {
-    width: 25%;
-    float: center;
-    padding: 15px;
-    border: 1px solid blue;
-}
-
-
-
-/*.menu ul {
+.menu ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -124,7 +118,7 @@ h3{
 .menu li:hover {
     background-color: #0099cc;
 }
-*/
+
 
 
 .bars li {
