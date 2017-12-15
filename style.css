@@ -52,7 +52,7 @@
 
 [class*="col-"] {
     width: 100%;
-    float: left;
+    float: center;
     padding: 15px;
 }
 
