@@ -79,8 +79,8 @@
 		float: center;
 		/*	border: 2px solid #ddd;
 		padding: 150px;*/
-		height: 500px;
-		width: 400px;
+		height: 350px;
+		width: 200px;
 		/*position: relative;
 		display: block;
 		margin: 55px auto auto auto;*/
@@ -98,8 +98,8 @@
 		float: center;
 	/*	border: 2px solid #ddd;
 		padding: 150px; */
-		height: 800px;
-		width: 650px;
+		height: 550px;
+		width: 400px;
 		/*position: relative;
 		display: block;
 		margin: 55px auto auto auto;*/
@@ -117,8 +117,8 @@
 		float: center;
 		/*	border: 2px solid #ddd;
 		padding: 150px; */
-		height: 1000px;
-		width: 800px;
+		height: 800px;
+		width: 600px;
 		/*position: relative;
 		display: block;
 		margin: 55px auto auto auto;*/
@@ -126,12 +126,12 @@
 }
 
 
-/*img{
+img{
 		width:100%;
         height:auto;
     }
 
-*/
+
 
 
 /* For mobile phones: */
