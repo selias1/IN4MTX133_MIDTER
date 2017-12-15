@@ -7,6 +7,35 @@
     border-radius: 10px;
 }*/
 
+.bars li {
+	margin-bottom: 20px;
+	position: relative;
+}
+	
+.bars li:after {
+	background: #e1e1e1;
+	bottom: -4px;
+	content: ' ';
+	display: block;
+	height: 5px;
+	position: absolute;
+	width:100%;
+}
+	
+.bars li span {
+	background: #56c9c9;
+	bottom: -4px;
+	content: ' ';
+	display: block;
+	height: 5px;
+	left: 0;
+	position: absolute;
+	width: inherit;
+	z-index: 1;
+}
+
+
+
 
 .header {
     border: 1px solid blue;
