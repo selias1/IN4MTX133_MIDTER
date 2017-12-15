@@ -47,12 +47,12 @@
         font-family: "verdana" , sans-serif;
     }
 
-    .leftfloat {
+/*    .leftfloat {
     	position: relative;
 		top: 300px;  
 		font-size: 0.94em;
 	}  
-  
+  */
 	
 	.ProfilePicture{
 		
@@ -60,18 +60,18 @@
 		margin: auto;
 		border-radius: 50%;
 		float: center;
-		/*	border: 2px solid #ddd;
-		padding: 150px;*/
 		height: 200px;
 		width: 160px;
-		/*position: relative;
-		display: block;
-		margin: 55px auto auto auto;*/
+
 	}
 }
 @media screen and (min-width: 401px) and (max-width: 980px){
 
-	
+	body {
+    	background-color: lightblue;
+    	padding: 20px;
+    	font-family: "verdana" , sans-serif;
+	}
 
 
 	.ProfilePicture{
@@ -79,32 +79,28 @@
 		margin: auto;
 		border-radius: 50%;
 		float: center;
-	/*	border: 2px solid #ddd;
-		padding: 150px; */
 		height: 400px;
 		width: 300px;
-		/*position: relative;
-		display: block;
-		margin: 55px auto auto auto;*/
+
 	}
 }
 
 @media screen and (min-width: 981px){
-	
-
+		
+	body {
+    	background-color: lightblue;
+    	padding: 20px;
+    	font-family: "verdana" , sans-serif;
+	}
 
 	.ProfilePicture {
 		display: block;
 		margin: auto;
 		border-radius: 50%;
 		float: center;
-		/*	border: 2px solid #ddd;
-		padding: 150px; */
 		height: 600px;
 		width: 500px;
-		/*position: relative;
-		display: block;
-		margin: 55px auto auto auto;*/
+
 	}
 }
 
@@ -158,14 +154,6 @@
 	z-index: 1;
 }
 
-
-
-
-
-
-
-
-
 p {
 
 	width: 75%;
@@ -207,11 +195,7 @@ ul li a{
 }
 */
 
-body {
-    background-color: lightblue;
-    padding: 20px;
-    font-family: "verdana" , sans-serif;
-}
+
 /* Center website */
 .main {
     max-width: 1000px;
