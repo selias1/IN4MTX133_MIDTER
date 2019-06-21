@@ -10,7 +10,10 @@
     padding: 15px;
     border: 1px solid blue;
 }*/
-
+.img-circle {
+    border-radius: 50%;
+    width: 200px;
+}
 .navbar {
     margin-bottom: 0;
     border-radius: 0;
@@ -238,7 +241,7 @@ article.websites>div.browser>.window~* {
 	
 }
 
-
+/*
 .menu ul {
     list-style-type: none;
     margin: 0;
@@ -297,12 +300,12 @@ p {
 	color: grey;
     font-family: "verdana", sans-serif;
     font-size: 20px;
-}
+}*/
 
-
+/*
 
 /* Center website */
-.main {
+/*.main {
     max-width: 1000px;
     margin: auto;
 }
@@ -325,6 +328,12 @@ h1 {
 body {font-family: Verdana, sans-serif;}
 .mySlides {display: none;}
 img {vertical-align: middle;}
+*/
+
+
+
+
+*/
 
 /* Slideshow container */
 .slideshow-container {
