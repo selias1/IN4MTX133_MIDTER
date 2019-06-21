@@ -215,6 +215,21 @@ img {vertical-align: middle;}
   top: 0;
 }
 
+footer {
+    background-color: #ffffff;
+    padding: 25px;
+}
+
+#footer{
+    min-height: 200px;
+    text-align: left;
+    padding-top: 20px;
+    font-size: 12px;
+    line-height: 20px;
+    width: 100%;
+    display: inline-block;
+}
+
 /* The dots/bullets/indicators */
 .dot {
   height: 15px;
