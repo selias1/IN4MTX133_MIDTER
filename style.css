@@ -1,6 +1,6 @@
 
 
-.header {
+/*.header {
     border: 1px solid blue;
     padding: 15px;
 }
@@ -9,7 +9,7 @@
     float: center;
     padding: 15px;
     border: 1px solid blue;
-}
+}*/
 
 .navbar {
     margin-bottom: 0;
@@ -45,7 +45,7 @@ h3{
 }
 */
 
-@media screen and (max-width: 400px){
+/*@media screen and (max-width: 400px){
 
 	body {
         background-color: lightgreen;
@@ -102,6 +102,140 @@ h3{
 		width: 500px;
 
 	}
+}*/
+
+@media (max-width: 500pt) {
+	
+	article.repos>div.repo {
+		margin: 0.5em 0;
+	}
+	
+	article.repos>div.repo:first-of-type {
+		margin-top: 0;
+	}
+	
+	article.repos>div.repo:last-of-type {
+		margin-bottom: 0;
+	}
+	
+}
+
+@media (min-width: 500pt) {
+	
+	article.repos>div.repo {
+		width: calc(50% - (12pt + 3pt) * 2 + 1pt);
+		margin: 3pt;
+	}
+	
+	article.repos>div.repo:nth-of-type(-n+2) {
+		margin-top: 0;
+	}
+	
+	article.repos>div.repo:nth-of-type(odd) {
+		margin-left: 0;
+  }
+  
+  article.repos>div.repo:nth-child(4){
+    margin-left: 2.5em;
+
+  }
+  article.repos>div.repo:nth-child(2){
+    margin-left: 2.5em;
+  }
+  article.repos>div.repo:nth-child(3){
+    margin-left: 2.5em;
+  }
+  article.repos>div.repo:nth-child(1){
+    margin-left: 2.5em;
+  }
+	
+	article.repos>div.repo:nth-of-type(even) {
+		margin-right: 0;
+	}
+	
+}
+
+article.websites {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+}
+
+article.websites>div.browser {
+	padding-bottom: 1em;
+	width: 100%;
+}
+
+article.websites>div.browser>a.window {
+	width: 100%;
+}
+
+article.websites>div.browser>.window>div.location {
+	display: block;
+}
+
+article.websites>div.browser>.window+* {
+	margin-top: 5pt;
+}
+
+article.websites>div.browser>.window~* {
+	color: #444444;
+	text-align: center;
+}
+
+@media (max-width: 500pt) {
+	
+	article.websites>div.browser {
+		margin: 0.5em 0;
+	}
+	
+	article.websites>div.browser:first-of-type {
+		margin-top: 0;
+	}
+	
+	article.websites>div.browser:last-of-type {
+		margin-bottom: 0;
+		padding-bottom: 0;
+	}
+	
+	div.browser>.window>div.location {
+		margin: 6pt 20pt;
+		color: #000000;
+		font-size: 11pt;
+		
+		-webkit-border-radius: 5pt;
+		-moz-border-radius: 5pt;
+		-ms-border-radius: 5pt;
+		-o-border-radius: 5pt;
+		border-radius: 5pt;
+	}
+	
+}
+
+@media (min-width: 500pt) {
+	
+	article.websites>div.browser {
+		width: calc(50% - 5pt * 2 + 1pt);
+		margin: 3pt;
+	}
+	
+	article.websites>div.browser:nth-of-type(-n+2) {
+		margin-top: 0;
+	}
+	
+	article.websites>div.browser:nth-of-type(odd) {
+		margin-left: 0;
+	}
+	
+	article.websites>div.browser:nth-of-type(even) {
+		margin-right: 0;
+	}
+	
+	article.websites>div.browser:nth-last-of-type(-n+2) {
+		margin-bottom: 0;
+		padding-bottom: 0;
+	}
+	
 }
 
 
